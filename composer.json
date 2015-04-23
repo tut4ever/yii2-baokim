@@ -1,0 +1,25 @@
+{
+    "name": "quangthinh/yii2-baokim",
+    "description": "Pro module Baokim",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "GPL-3.0+",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "quangthinh",
+            "email": "quangthinh.dico@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "quangthinh\\yii2\\baokim\\": "src"
+        }
+    }
+}
